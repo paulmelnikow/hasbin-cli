@@ -1,2 +1,5 @@
 extends:
-    - "plugin:bodylabs/common-es6"
+  - "plugin:pnm/common"
+
+rules:
+  no-console: "off"

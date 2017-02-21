@@ -28,8 +28,7 @@
   "homepage": "https://github.com/paulmelnikow/hasbin-cli#readme",
   "devDependencies": {
     "eslint": "^3.15.0",
-    "eslint-plugin-bodylabs": "^8.0.0",
-    "eslint-plugin-mocha": "^4.8.0"
+    "eslint-plugin-pnm": "^1.0.0"
   },
   "dependencies": {
     "hasbin": "^1.2.3",
