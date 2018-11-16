@@ -28,7 +28,7 @@
   "homepage": "https://github.com/paulmelnikow/hasbin-cli#readme",
   "devDependencies": {
     "eslint": "^5.9.0",
-    "eslint-plugin-pnm": "^1.0.0"
+    "eslint-plugin-pnm": "^2.0.0"
   },
   "dependencies": {
     "hasbin": "^1.2.3",
