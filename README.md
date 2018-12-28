@@ -1,5 +1,14 @@
 # hasbin-cli
 
+[![version](https://img.shields.io/npm/v/hasbin-cli.svg?style=flat-square)][npm]
+[![license](https://img.shields.io/npm/l/hasbin-cli.svg?style=flat-square)][npm]
+[![build](https://img.shields.io/circleci/project/github/paulmelnikow/hasbin-cli.svg?style=flat-square)][build]
+[![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)][prettier]
+
+[npm]: https://npmjs.com/hasbin-cli
+[build]: https://circleci.com/gh/paulmelnikow/hasbin-cli/tree/master
+[prettier]: https://prettier.io/
+
 From the command line, check whether a binary exists in the PATH environment
 variable.
 
