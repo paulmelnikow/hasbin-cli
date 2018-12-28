@@ -9,7 +9,7 @@ const argv = require('minimist')(process.argv.slice(2), { boolean: true })
 const bins = argv._
 const modes = ['all', 'some', 'first'].filter(mode => argv[mode])
 
-if (! bins.length || modes.length > 1) {
+if (!bins.length || modes.length > 1) {
   console.error(usage)
   process.exit(2)
 }
@@ -42,6 +42,6 @@ if (printResult) {
   console.log(result)
 }
 
-if (! result) {
+if (!result) {
   process.exit(1)
 }
