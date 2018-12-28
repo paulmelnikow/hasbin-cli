@@ -10,10 +10,10 @@
     "test": "npm run lint",
     "lint": "eslint '**/*.js'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paulmelnikow/hasbin-cli.git"
-  },
+  "files": [
+    "*.js"
+  ],
+  "repository": "paulmelnikow/hasbin-cli",
   "keywords": [
     "bin",
     "check",
@@ -22,13 +22,20 @@
   ],
   "author": "Paul Melnikow",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/paulmelnikow/hasbin-cli/issues"
+  "engines": {
+    "node": ">= 6.0"
   },
-  "homepage": "https://github.com/paulmelnikow/hasbin-cli#readme",
   "devDependencies": {
     "eslint": "^5.9.0",
-    "eslint-plugin-pnm": "^2.0.0"
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.15.3",
+    "prettier-check": "^2.0.0"
   },
   "dependencies": {
     "hasbin": "^1.2.3",

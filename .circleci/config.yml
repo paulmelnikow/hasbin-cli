@@ -14,12 +14,8 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: Upgrade npm
-          command: sudo npm install -g npm
-
-      - run:
           name: Install dependencies
-          command: npm ci
+          command: npm install
 
       - save_cache:
           paths:
