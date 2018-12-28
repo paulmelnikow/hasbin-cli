@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint \"**/*.js\"",
+    "prettier": "prettier --write \"**/*.js\"",
+    "prettier": "prettier-check \"**/*.js\""
   },
   "files": [
     "*.js"
