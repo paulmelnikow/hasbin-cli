@@ -15,7 +15,7 @@ jobs:
 
       - run:
           name: Upgrade npm
-          command: npm install -g npm
+          command: sudo npm install -g npm
 
       - run:
           name: Install dependencies
