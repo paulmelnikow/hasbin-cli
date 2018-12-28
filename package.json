@@ -10,7 +10,7 @@
     "test": "npm run lint",
     "lint": "eslint \"**/*.js\"",
     "prettier": "prettier --write \"**/*.js\"",
-    "prettier": "prettier-check \"**/*.js\""
+    "prettier-check": "prettier-check \"**/*.js\""
   },
   "files": [
     "*.js"
