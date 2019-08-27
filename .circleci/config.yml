@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:6
+      - image: circleci/node:8
 
     steps:
       - checkout
@@ -29,5 +29,5 @@ jobs:
 
       - run:
           name: Check prettier
-          command: npm run prettier-check
+          command: npm run prettier:check
           when: always
