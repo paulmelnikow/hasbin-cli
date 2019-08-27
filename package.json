@@ -1,6 +1,6 @@
 {
   "name": "hasbin-cli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "From the command line, check whether a binary exists in the PATH environment variable",
   "main": "index.js",
   "bin": {
