@@ -28,7 +28,7 @@
     "node": ">= 10.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^7.25.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
